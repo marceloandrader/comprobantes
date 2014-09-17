@@ -70,7 +70,7 @@ window._fbq.push(['track', '6016904751172', {'value':'0.01','currency':'USD'}]);
                         <a href="#servicios">Cómo estar preparado?</a>
                     </li>
                     <li>
-                        <a href="#signup">Registrarse</a>
+                        <a href="#signup">Registrese</a>
                     </li>
                 </ul>
             </div>
@@ -136,7 +136,7 @@ window._fbq.push(['track', '6016904751172', {'value':'0.01','currency':'USD'}]);
                         <li>Acceso Web, no necesita instalarlo en su computadora, puede usarlo incluso desde su smartphone o tablet</li>
                         <li>Base de Clientes Global, no necesita volver a ingresar información del cliente si el cliente ya existe en nuestra base</li>
                         <li>Respaldos de información automáticos, manejados con los mejores estándares de seguridad</li>
-                        <li>Soporte, puede contactarnos vía email/teléfono para solucionar sus problemas</li>
+                        <li>Soporte, puede contactarnos para solucionar sus problemas con el servicio</li>
                         <li>Seguridad, todos nuestros servicios se brindan a través de una conexión segura HTTPS</li>
                         <li>Reportes gerenciales, a través de nuestro servicio podemos mostrar ventas por rango de fechas y otras variables</li>
                         <li>Notificatciones a clientes, cuando se genera una nueva factura envíamos por email o sms</li>
@@ -161,7 +161,7 @@ window._fbq.push(['track', '6016904751172', {'value':'0.01','currency':'USD'}]);
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Registrarse para enviarle información de nuestros servicios</h2>
+                    <h2 class="section-heading">Los primeros 10 registros tendrán un descuento especial!</h2>
 
                     <!-- Begin MailChimp Signup Form -->
                     <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
@@ -251,14 +251,14 @@ window._fbq.push(['track', '6016904751172', {'value':'0.01','currency':'USD'}]);
                 <div class="col-lg-6">
                     <ul class="list-inline banner-social-buttons">
                         <li>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmarceloandrader.github.io%2Fcomprobantes" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Facebook</span></a>
+                        </li>
+                        <li>
                           <a class="btn btn-default btn-lg twitter-share-button"
                              href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmarceloandrader.github.io%2Fcomprobantes&text=Servicio%20de%20facturaci%C3%B3n%20electr%C3%B3nica%20f%C3%A1cil%20de%20usar"  target="_blank"
                              data-text="Facturación electrónica en línea"
                              >
                             <i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmarceloandrader.github.io%2Fcomprobantes" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Facebook</span></a>
                         </li>
                         <li>
                             <a href="mailto:?subject=Servicio%20de%20facturaci%C3%B3n%20electr%C3%B3nica%20f%C3%A1cil%20de%20usar&body=Mira%20este%20enlace%20https%3A%2F%2Fmarceloandrader.github.io%2Fcomprobantes" class="btn btn-default btn-lg"><i class="fa fa-mail-forward fa-fw"></i> <span class="network-name">Email</span></a>
@@ -288,7 +288,7 @@ window._fbq.push(['track', '6016904751172', {'value':'0.01','currency':'USD'}]);
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <a href="#signup">Registrarse</a>
+                            <a href="#signup">Registrese</a>
                         </li>
                     </ul>
                 </div>
@@ -328,7 +328,9 @@ window._fbq.push(['track', '6016904751172', {'value':'0.01','currency':'USD'}]);
 
           counter.innerHTML = msg;
 
-          requestAnimationFrame(update);
+          setTimeout(function() {
+            requestAnimationFrame(update);
+          }, 10000);
         }
         update();
 
